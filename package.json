@@ -1,0 +1,23 @@
+{
+  "name": "node-auction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@thirdweb-dev/chains": "^0.1.59",
+    "@thirdweb-dev/react": "^4.1.10",
+    "@thirdweb-dev/sdk": "^4.0.17",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "ethers": "^5.7.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
